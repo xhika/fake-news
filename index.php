@@ -29,7 +29,7 @@ $authors = sortDate($authors); //calls sortDate function
 <!--Ending nav-->
 <?= BR . BR; ?>
 <!--Starting container-->
-	<div class="bg-white mt-8 w-3/4">
+	<div class="bg-white mx-auto mt-8 w-3/4">
 		<h1 class="bg-indigo text-white py-8 text-center rounded-t">fake news</h1>
 		<div class="m-4 text-center flex space-around">
 
