@@ -7,7 +7,7 @@ require __DIR__.'/functions.php';
 require __DIR__.'/data.php';
 const BR = "<br/>";
 
-sortDate(); //calls sortDate function
+$authors = sortDate($authors); //calls sortDate function
 
 ?>
 <!DOCTYPE html>
