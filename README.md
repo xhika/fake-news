@@ -17,5 +17,9 @@ To clone using bash:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 
+## Testers from Class
+[André](https://github.com/laykith)  
+[Amin](https://github.com/Amin-Mohamed)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

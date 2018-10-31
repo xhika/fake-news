@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 require __DIR__.'/functions.php';
 require __DIR__.'/data.php';
-const BR = "<br/>";
+
 
 $allPosts = convertArray($authors);
 
@@ -25,7 +25,7 @@ $allPosts = convertArray($authors);
 
 	</nav>
 	<!--Ending nav-->
-	<?= BR . BR; ?>
+
 	<!--Starting container-->
 	<div class="bg-white mx-auto mt-8 w-3/4">
 		<h1 class="bg-indigo text-white py-8 text-center rounded-t">fake news</h1>

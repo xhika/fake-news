@@ -8,9 +8,8 @@ declare(strict_types=1);
  * @param  array  $a
  * @param  array  $b
  * @return int
- */
-function sortByDate(array $a, array $b) : int
-{
+* * *  */
+function sortByDate(array $a, array $b) : int {
 	return strtotime($b['date']) - strtotime($a['date']);
 }
 
