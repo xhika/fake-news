@@ -11,7 +11,7 @@
 		<span class="inline-block bg-indigo-dark rounded-full px-3 py-1 text-sm font-semibold text-white mr-2"><?= $post['date']; ?></span>
 		<span class="inline-block bg-indigo-dark rounded-full px-3 py-1 text-sm font-semibold text-white"><?= $post['likes']; ?></span>
 		<span class="float-right">
-			<button type="button" class="text-indigo-dark text-3xl font-bold mb-2" onClick="likeButton(this)">
+			<button type="button" class="text-indigo-dark text-3xl font-bold mb-2">
 				<i id="heart" class="fas fa-heart"></i>
 			</button>
 		</span>

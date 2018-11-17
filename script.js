@@ -1,15 +1,11 @@
 'use strict';
 
-function likeButton(button) {
-	// console.log(button)
-	let clicks = Number(button.innerText);
-	clicks += 1;
-	button.innerHTML = clicks;
-	console.log('👍')
-};
-
-
-
-
-
+const buttons = document.querySelectorAll('button');
+	buttons.forEach( function(button) {
+		button.addEventListener('click', (e) => {
+		let clicks = Number(button.innerText);
+		clicks += 1;
+		button.innerText = clicks;
+		})
+	});
 
